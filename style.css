@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rufina:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Rufina";
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  color: #FFFFFF;
+  background: #233000;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+header .text-block {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  gap: 50px;
+}
+header img {
+  display: block;
+  max-width: 200px;
+}
+
+.first {
+  background: #233000;
+}
+.first .first-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 95px 0;
+}
+.first .img1 {
+  margin-top: 313px;
+}
+.first .text_grid1 {
+  display: flex;
+  flex-direction: column;
+}
+.first .text1 {
+  max-width: 822px;
+  color: #FFFFFF;
+}
+.first .text1 h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+.first .text1 p {
+  font-size: 24px;
+  max-width: 560px;
+}
+.first .img_meat {
+  max-width: 600px;
+  justify-self: end;
+  align-self: end;
+}
+
+.second {
+  background: #233000;
+  padding: 185px 0 225px 0px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 344px;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+}
+.flex1 h2 {
+  margin: 54px 0;
+  line-height: 150%;
+  font-size: 68px;
+  color: #FFFFFF;
+}
+.flex1 p {
+  color: #FFFFFF;
+  font-size: 24px;
+  letter-spacing: 2%;
+  line-height: 140%;
+  font-weight: 300;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.flex2 p {
+  color: #FFFFFF;
+  font-size: 24px;
+  letter-spacing: 2%;
+  line-height: 140%;
+  font-weight: 300;
+}
+.flex2 img {
+  margin-top: 84px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  gap: 152px;
+}
+
+.Three {
+  padding: 185px 0 225px 0px;
+  overflow: hidden;
+}
+
+.flex-1 {
+  display: flex;
+  position: relative;
+}
+.flex-1 img {
+  position: absolute;
+  top: -185px;
+  right: -225px;
+}
+.flex-1 .menu {
+  max-width: 532px;
+  width: 100%;
+}
+.flex-1 .menu h2 {
+  font-size: 102px;
+  line-height: 120%;
+  font-weight: bold;
+}
+.flex-1 .menu p {
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-wrap: pretty;
+}
+
+.psevdo_card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+.psevdo_card div {
+  max-width: 792px;
+  width: 100%;
+}
+.psevdo_card div h3 {
+  text-align: end;
+  font-size: 48px;
+  line-height: 64%;
+  font-weight: bold;
+}
+.psevdo_card div h2 {
+  border-top: 1px dashed;
+  margin-top: 24px;
+  font-size: 68px;
+  line-height: 94%;
+  font-weight: bold;
+  padding-top: 12px;
+}
+.psevdo_card div p {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-wrap: pretty;
+  color: #4D4D4D;
+}
+
+.four {
+  background: #EBF0E4;
+  padding-top: 234px;
+}
+
+.four_container {
+  display: flex;
+}
+.four_container div {
+  margin-top: 37px;
+}
+.four_container div h2 {
+  font-size: 108px;
+  line-height: 120%;
+}
+.four_container div p {
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-wrap: pretty;
+  color: #4D4D4D;
+}
+.four_container img {
+  position: relative;
+  top: 37px;
+}/*# sourceMappingURL=style.css.map */

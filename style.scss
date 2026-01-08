@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rufina:wght@400;700&display=swap');
+$font-family: 'Rufina';
+$color: #FFFFFF;
+$bg-main: #233000;
+$font-size: 26px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: $font-family;
+}
+
+// .main
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  color: $color;
+  background: $bg-main;
+
+  //
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  //
+
+  .text-block {
+    display: flex;
+    justify-content: space-between;
+    font-size: $font-size;
+    gap: 50px;
+  }
+
+  img {
+    display: block;
+    max-width: 200px;
+  }
+}
+
+.first {
+  background: $bg-main;
+
+  .first-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 95px 0;
+  }
+
+  //
+
+  .img1 {
+    margin-top: 313px;
+  }
+
+  .text_grid1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text1 {
+    max-width: 822px;
+    color: #FFFFFF;
+
+    h1 {
+      font-weight: bold;
+      font-size: 70px;
+    }
+
+    p {
+      font-size: 24px;
+      max-width: 560px;
+    }
+
+  }
+
+  .img_meat {
+    max-width: 600px;
+    justify-self: end;
+    align-self: end;
+  }
+}
+
+.second {
+  background: $bg-main;
+  padding: 185px 0 225px 0px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 344px;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin: 54px 0;
+    line-height: 150%;
+    font-size: 68px;
+    color: $color;
+  }
+
+  p {
+    color: $color;
+    font-size: 24px;
+    letter-spacing: 2%;
+    line-height: 140%;
+    font-weight: 300;
+  }
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column-reverse;
+
+  p {
+    color: $color;
+    font-size: 24px;
+    letter-spacing: 2%;
+    line-height: 140%;
+    font-weight: 300;
+  }
+
+  img {
+    margin-top: 84px;
+  }
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  gap: 152px;
+}
+
+.Three {
+  padding: 185px 0 225px 0px;
+  overflow: hidden;
+}
+
+.flex-1 {
+  display: flex;
+  position: relative;
+  
+  img {
+    position: absolute;
+    top: -185px;
+    right: -225px;
+  }
+
+  .menu {
+    max-width: 532px;
+    width: 100%;
+
+    h2 {
+      font-size: 102px;
+      line-height: 120%;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 140%;
+      letter-spacing: 2%;
+      text-wrap: pretty;
+    }
+  }
+}
+
+.psevdo_card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  div{
+    max-width: 792px;
+    width: 100%;
+    h3{
+      text-align: end;
+      font-size: 48px;
+      line-height: 64%;
+      font-weight: bold;
+    }
+    h2{
+      border-top: 1px dashed;
+      margin-top: 24px;
+      font-size: 68px;
+      line-height: 94%;
+      font-weight: bold;
+      padding-top: 12px;
+    }
+    p {
+      margin-top: 24px;
+      font-size: 24px;
+      line-height: 140%;
+      letter-spacing: 2%;
+      text-wrap: pretty;
+      color: #4D4D4D;
+    }
+  }
+}
+.four{
+  background: #EBF0E4;
+  padding-top: 234px;
+}
+.four_container{
+  display: flex;
+  div{
+    margin-top: 37px;
+    h2 {
+      font-size: 108px;
+      line-height: 120%;
+    }
+    p {
+      font-size: 24px;
+      line-height: 140%;
+      letter-spacing: 2%;
+      text-wrap: pretty;
+      color: #4D4D4D;
+    }
+  }
+  img{
+    position: relative;
+    top: 37px;
+  }
+}
